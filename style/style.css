@@ -167,7 +167,71 @@ nav {
         display: block;
     }
 }
-
+@media screen and (max-width: 900px){
+    .MENU.active {
+        left: 50%;
+    }
+    
+}
+@media screen and (max-width: 720px){
+    .MENU.active {
+        left: 45%;
+    }
+}
+@media screen and (max-width: 650px){
+    .MENU.active {
+        left: 40%;
+    }
+}
+@media screen and (max-width: 590px){
+    .MENU.active {
+        left: 30%;
+    }
+}
+@media screen and (max-width: 505px){
+    .MENU.active {
+        left: 20%;
+    }
+}
+@media screen and (max-width: 450px){
+    .MENU.active {
+        left: 15%;
+    }
+    .menu a img {
+        width: 180px;
+    }
+}
+@media screen and (max-width: 417px){
+    .menu {
+        width: 300px;
+        height: 400px;
+    }
+    .ligo a img {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 360px){
+    .menu {
+        
+        width: 250px;
+        height: 400px;
+    }
+    .ligo a img {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 300px){
+    .menu {
+        width: 230px;
+        height: 400px;
+    }
+    .ligo a img {
+        width: 120px;
+    }
+    .menu a img {
+        width: 150px;
+    }
+}
 @font-face {
     font-family: Gilroy-Semibold;
     src: url(../font/Gilroy-Semibold.ttf);
